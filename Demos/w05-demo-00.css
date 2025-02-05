@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    width: 500px;
+    background-color: plum;
+    padding: 50px;
+    border: 10px solid teal;
+    margin: 100px;
+    color: white;
+    font-family: monospace;
+}
