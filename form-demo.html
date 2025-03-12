@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        #content {
+            border: 5px solid black;
+            width: 22.5rem;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        label, input, textarea, button {
+            display: block;
+            width: 20rem;
+        }
+
+        input, textarea {
+            margin-bottom: 1rem;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="content">
+        <h1>Contact Us</h1>
+        <form action="thankyou.html" class="contact-form">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="comment_box">Leave a comment</label>
+            <textarea name="comment_box" id="comment_box"></textarea>
+
+            <button type="Submit">Request info</button>
+        </form>
+    </div>
+
+    <script></script>
+</body>
+</html>
