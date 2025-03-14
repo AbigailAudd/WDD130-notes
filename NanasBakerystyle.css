@@ -1,0 +1,57 @@
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.HomeGrid {
+    
+}
+
+.Cake-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.Custom-cakes {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.Tasty-treats {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.Cookie-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.Bread-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.Baked-bread {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+nav {
+    display: flex;
+}
